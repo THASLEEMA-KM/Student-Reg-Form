@@ -261,7 +261,22 @@ function Form() {
         if(firstname && lastName && address && mobileNumber && email && password && dateOptions.dates && dateOptions.dates && dateOptions.dates && gender && options.course)
         {
         // console.log("ok");
-        alert("Successfully Registered!!!")
+        alert( 
+            `   SUCCESSFULLY REGISTERED!!!
+                            STUDENT DETAILS  
+                        FIRST NAME :${firstname}
+                        LAST NAME : ${lastName}
+                        ADDRESS :${address}
+                        MOBILE NUMBER :${mobileNumber}
+                        EMAIL : ${email}
+                        PASSWORD : ${password}
+                        D.O.B : ${dateOptions.dates}/${dateOptions.month}/${dateOptions.year}
+                        GENDER : ${gender}
+                        COURSE  : ${options.course}
+           `      
+        
+        )
+       
         }
         else
         {
@@ -444,9 +459,10 @@ function Form() {
     
             </form>
     </div>
-    {/* <div style={{width:'600px',minHeight:'100vh'}} className="bg-light mt-2 rounded">
-        <h3 className='text-center pt-3'>STUDENT DETAILS</h3>
-    </div> */}
+    <div id='studentdetails' >
+        
+
+    </div>
 
 </div>
   )
