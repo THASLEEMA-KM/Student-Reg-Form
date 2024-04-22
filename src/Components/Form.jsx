@@ -459,10 +459,6 @@ function Form() {
     
             </form>
     </div>
-    <div id='studentdetails' >
-        
-
-    </div>
 
 </div>
   )
