@@ -308,7 +308,9 @@ function Form() {
       
   return (
 <div style={{minHeight:'100vh',width:'100%'}} className='d-flex flex-column pt-3 align-items-center'>
-    <div style={{width:'600px'}} className="bg-transperant p-5 rounded">
+    
+    <div  className=" bg-transperant innerdiv p-5 rounded">
+
             <form >
                 <h6>Name</h6>
                 <div className="mb-3 d-flex justify-content-between">
