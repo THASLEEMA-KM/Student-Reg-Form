@@ -364,7 +364,7 @@ function Form() {
                         onChange={handleDateChange}
                         required
                     >
-                        <option hidden value="">Select Day</option>
+                        <option hidden value="">Day</option>
                         <option value="Sunday">Sunday</option>
                         <option value="Monday">Monday</option>
                         <option value="Tuesday">Tuesday</option>
@@ -382,7 +382,7 @@ function Form() {
                         onChange={handleDateChange}
                         required
                     >
-                        <option hidden value="">Select Month</option>
+                        <option hidden value="">Month</option>
                         <option value="January">January</option>
                         <option value="February">February</option>
                         <option value="March">March</option>
@@ -405,7 +405,7 @@ function Form() {
                         onChange={handleDateChange}
                         required
                     >
-                        <option hidden value="">Select Year</option>
+                        <option hidden value="">Year</option>
                         <option value="1990">1990</option>
                         <option value="1991">1991</option>
                         <option value="1992">1992</option>
