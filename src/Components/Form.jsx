@@ -315,7 +315,7 @@ function Form() {
                 <h6>Name</h6>
                 <div className="mb-3 d-flex justify-content-between">
                 
-                <TextField value={firstname || ""} onChange={e=>handleInputValidation(e.target)} type='textArea' name='firstName' id="outlined-basic" label="First Name" variant="outlined"/>
+                <TextField value={firstname || ""} onChange={e=>handleInputValidation(e.target)} name='firstName' id="outlined-basic" label="First Name" variant="outlined"/>
                 { isFirstNameInValid &&
                 <div className="ps-2 text-danger">Invalid first Name</div>
                 }
